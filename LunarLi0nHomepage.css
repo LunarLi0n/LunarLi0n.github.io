@@ -1,0 +1,154 @@
+@font-face { font-family:"Andromeda-ER2n"; src:url("Andromeda-ER2n.ttf");
+}
+@font-face { font-family:"Omegacentauri-eaapj"; src:url("Omegacentauri-eaapj.ttf");
+}
+
+body {
+  font-family: "Andromeda-ER2n";
+  text-align: center;
+  color: black;
+  margin:0;
+}
+
+.firstbackground {
+  background-image: url(https://i.imgur.com/lgHmuf1.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 670px;
+  padding-bottom: 500px;
+}
+
+#header{
+  margin-top: 180px;
+  color:white;
+  margin-bottom: -170px;
+  font-family: "Andromeda-ER2n";
+}
+
+#about {
+  margin-top: -500px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Omegacentauri-eaapj";
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 2;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -60px;
+}
+
+ul {
+  display:flex;
+  margin:0;
+  padding: 0;
+}
+
+li {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin:20px;
+  list-style-type: none;
+  color:white;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  background:rgba(0,0,0,25%);
+  padding:10px;
+}
+
+nav {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0,0,0,25%);
+  position: fixed;
+}
+
+#LunarLi0nLogo {
+ height: 200px;
+ width: 200px;
+ display: block;
+ margin:auto;
+ position:relative;
+ top:180px;
+}
+
+main {
+  margin-top:400px;
+}
+
+#skills {
+  padding-top: 100px;
+}
+
+.secondbackground {
+  background-image: url(https://i.imgur.com/VKAqbB8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 680px;
+  color:white;
+  padding-bottom: 165px;
+  padding-top: 50px;
+}
+
+#experience {
+  margin-top: -50px;
+}
+
+.certification {
+  display:block;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.form {
+  margin-bottom:100px;
+}
+
+#icons {
+  float: right;
+  margin-top:-67px;
+  margin-right:100px;
+}
+
+#icons li i {
+  float:right;
+}
+
+i {
+  margin-top:10px;
+}
+
+.thirdbackground {
+  background-image: url(https://i.imgur.com/LDqIBie.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 1100px;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 75px;
+}
+
+.thirdbackgroundstuff {
+  padding-top: 200px;
+}
