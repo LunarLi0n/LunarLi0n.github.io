@@ -1,6 +1,6 @@
 @font-face { font-family:"Andromeda-ER2n"; src:url("Andromeda-ER2n.ttf");
 }
-@font-face { font-family:"Omegacentauri-eaapj"; src:url("Omegacentauri-eaapj.ttf");
+@font-face { font-family:"Omegacentauri-eaapj"; src:url(./pages/Omegacentauri-eaapj.ttf);
 }
 
 body {
