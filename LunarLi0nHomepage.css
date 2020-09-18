@@ -15,6 +15,9 @@
     #secondary { width:100%; margin:0; border:none; }
 }
 
+/* Responsive */
+img { max-width: 100%; height: auto; }
+
 body {
   font-family: "Andromeda-ER2n";
   text-align: center;
