@@ -3,6 +3,21 @@
 @font-face { font-family:"Omegacentauri-eaapj"; src:url("https://lunarli0n.github.io/Omegacentauri-Eaapj.ttf") format('truetype');
 }
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* Responsive */
+img { max-width: 100%; height: auto; }
+
 body {
   font-family: "Andromeda-ER2n";
   text-align: center;
