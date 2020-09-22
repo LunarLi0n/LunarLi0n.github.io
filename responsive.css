@@ -54,13 +54,18 @@ h1 {
   text-decoration: none;
   border-width: 2px;
   border-style: solid;
-  padding: .5em 1.75em;
+  padding: .5em;
   font-size: 1rem;
   font-weight: 500;
+  margin: .5em 0;
 }
 
 .button-accent {
-  color:black;
+  color:white;
+}
+
+.button-small {
+
 }
 
 .button-accent:hover
@@ -158,20 +163,37 @@ nav a:hover {
 
 /* Experience
 ==================== */
+.experience h1 {
+  margin-top: .5em;
+}
+
 
 figure {
   margin: 3em 3em;
 }
 
-.port-desc {
-  font-size: 1.5rem;
-  font-weight: 600;
+figure img {
+  height:20em;
+  width:30em;
 }
 
-.portfolio-item {
+.port-item {
   position: relative;
-  margin: 0;
 }
+
+.port-desc {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  z-index: 100;
+  bottom: 5em;
+  left: .5em;
+  right: .5em;
+  padding:.5em;
+}
+
 
 /* Contact
 ==================== */
