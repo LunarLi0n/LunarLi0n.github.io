@@ -131,17 +131,31 @@ nav a:hover {
 /* Skills
 ==================== */
 .skills {
-background-image:url(https://i.imgur.com/VKAqbB8.jpg);
-background-position: center;
-background-size: cover;
-padding:15em 0;
+  background-image:url(https://i.imgur.com/VKAqbB8.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom:20em;
+  color: white;
+}
+
+.skills h1 {
+  padding-top: 4em;
+}
+
+#certification-image {
+  display:block;
+  position:center;
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Experience
 ==================== */
 
 figure {
-  margin: 3em 0;
+  margin: 3em 3em;
 }
 
 .port-desc {
