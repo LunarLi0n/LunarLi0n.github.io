@@ -58,21 +58,13 @@ h1 {
   font-size: 1rem;
   font-weight: 500;
   margin: .5em 0;
+  color: white;
+  transition-duration: 0.4s;
 }
 
-.button-accent {
-  color:white;
-}
-
-.button-small {
-
-}
-
-.button-accent:hover
-.button-accent:focus {
-  background:
-  color:
-
+.buttons:hover {
+  background: black;
+  color: white;
 }
 
 /* Nav
@@ -130,6 +122,8 @@ nav a:hover {
 
 .about {
   line-height: 2;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .about p {
@@ -167,7 +161,6 @@ nav a:hover {
   margin-top: .5em;
 }
 
-
 figure {
   margin: 3em 3em;
 }
@@ -179,21 +172,25 @@ figure img {
 
 .port-item {
   position: relative;
+  overflow: hidden;
 }
 
 .port-desc {
   font-size: 1rem;
   font-weight: 600;
   color: white;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.60);
   position: absolute;
   z-index: 100;
   bottom: 5em;
-  left: .5em;
-  right: .5em;
+  left: 3em;
+  right: 3em;
   padding:.5em;
 }
 
+.port-desc:hover {
+  background-color:rgba(0,0,0,0.85);
+}
 
 /* Contact
 ==================== */
