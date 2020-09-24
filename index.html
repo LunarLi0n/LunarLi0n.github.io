@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Lunar Li0n | Web Development</title>
 <link href="responsive.css" type="text/css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fd486d664.js" crossorigin="anonymous"></script>
@@ -70,19 +70,25 @@
 
 <section class="contact" id="contact">
 	<h1>Contact</h1>
-	<div class="form">
-		<form action="https://lunarli0n.github.io/">
-			<label for="name">Name</label>
-			<input type="text" name="contact-info" id="name" required>
-			<label for="email">Email</label>
-			<input type="email" name="contact-info" id="email" required>
-			<br>
-			<br>
-			<label for="message">Message</label>
-			<textarea name="contact-info" id="message" rows="5" cols="30" required style="font-family:Andromeda-er2n;">What would you like done?</textarea>
-			<input type="submit" value=Submit style="font-family:Andromeda-eR2n;">
-		</form>
+
+	<div class="container">
+		<div class="contact-form row">
+			<div class="form-field col-lg-6">
+				<input id="name" class="input-text" type="text" name="">
+				<label for="name" class="label">Name/Company</label>
+			</div>
+			<div class="form-field col-lg-6">
+				<input id="email" class="input-text" type="email" name="">
+				<label for="email" class="label">Email</label>
+			<div class="form-field col-lg-6">
+				<input id="message" class="input-text" type="text" name="">
+				<label for="message" class="label">Message</label>
+			</div>
+			<div class="form-field col-lg-6">
+				<input class="submit-btn" type="submit" value="Submit" name="">
+			</div>
 		</div>
+	</div>
 </section>
 
 </body>

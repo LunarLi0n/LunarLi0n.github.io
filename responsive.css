@@ -110,7 +110,7 @@ nav a:hover {
   background-image:url(https://i.imgur.com/lgHmuf1.jpg);
   background-position: center;
   background-size: cover;
-  padding:10em 0;
+  padding:8em 0;
 }
 
 .logo {
@@ -138,7 +138,7 @@ nav a:hover {
   background-image:url(https://i.imgur.com/VKAqbB8.jpg);
   background-position: center;
   background-size: cover;
-  padding-bottom:10em;
+  padding-bottom:12em;
   color: white;
 }
 
@@ -203,8 +203,10 @@ figure img {
   background-image:url(https://i.imgur.com/LDqIBie.jpg);
   background-position: center;
   background-size: cover;
-  padding-bottom:20em;
+  padding-bottom:6em;
   text-align: center;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
 }
 
 .contact h1 {
@@ -215,6 +217,64 @@ figure img {
   padding-bottom: .5em;
 }
 
-.form label {
+.contact .label {
+  position: absolute;
+  left: 2em;
+  right: 2em;
   color:white;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+  margin: .25em;
+}
+.contact-form .form-field {
+  position:relative;
+  margin: 0 auto;
+  width: 30em;
+  max-width: 100%;
+  padding:2em 0;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height:36px;
+  border-width: 0 0 2px 0;
+  border-color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color:white;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  font-family: "Andromeda-eR2n";
+  font-weight: 600;
+  color:black;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin: 1em;
+  cursor:pointer;
+
+}
+#name {
+  background-color: rgba(0,0,0,0);
+  font-size: 40px;
+}
+
+#email {
+  background-color: rgba(0,0,0,0);
+  font-size: 40px;
+}
+
+#message {
+  background-color: rgba(0,0,0,0);
+  font-size: 40px;
 }
