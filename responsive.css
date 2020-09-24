@@ -266,15 +266,15 @@ figure img {
 }
 #name {
   background-color: rgba(0,0,0,0);
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #email {
   background-color: rgba(0,0,0,0);
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #message {
   background-color: rgba(0,0,0,0);
-  font-size: 40px;
+  font-size: 20px;
 }
