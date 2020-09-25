@@ -203,10 +203,8 @@ figure img {
   background-image:url(https://i.imgur.com/LDqIBie.jpg);
   background-position: center;
   background-size: cover;
-  padding-bottom:6em;
   text-align: center;
   position: relative;
-  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
 }
 
 .contact h1 {
@@ -234,7 +232,7 @@ figure img {
   margin: 0 auto;
   width: 30em;
   max-width: 100%;
-  padding:2em 0;
+  padding: 2em 0;
 }
 
 .contact-form .input-text {
@@ -243,7 +241,6 @@ figure img {
   height:36px;
   border-width: 0 0 2px 0;
   border-color: white;
-  font-size: 14px;
   line-height: 26px;
   font-weight: 400;
   color:white;
