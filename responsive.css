@@ -231,7 +231,8 @@ figure img {
   left: 2em;
   right: 2em;
   color:white;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: "Omegacentauri-Eaapj";
   line-height: 26px;
   font-weight: 400;
   cursor: text;
@@ -274,15 +275,12 @@ figure img {
 }
 #name {
   background-color: rgba(0,0,0,0);
-  font-size: 20px;
 }
 
 #email {
   background-color: rgba(0,0,0,0);
-  font-size: 20px;
 }
 
 #message {
   background-color: rgba(0,0,0,0);
-  font-size: 20px;
 }
