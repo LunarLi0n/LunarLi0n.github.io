@@ -156,7 +156,7 @@ nav a:hover {
   margin-right: auto;
 }
 
-.fab {
+.skills i {
   color:black;
 }
 
@@ -284,3 +284,24 @@ figure img {
 #message {
   background-color: rgba(0,0,0,0);
 }
+
+.home ul {
+  margin-right: 2em;
+  padding-top: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+.home li {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.home i {
+  color:white;
+}
+
+.home i:hover {
+    opacity:0.5;
+  }
